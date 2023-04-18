@@ -7,7 +7,8 @@ export const Home = () => {
       <div className='pageHome'>
         <header>
           <div className='sectionTop'>
-            <div>
+            <div className='logoName'>
+              <img src='/images/logo2.png'/>
               <p className='title'>
                 Design de Interiores
               </p>
