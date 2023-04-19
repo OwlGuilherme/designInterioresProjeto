@@ -1,0 +1,56 @@
+.cantainerAboutMe {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.photo {
+    height: 23rem;
+    width: 23rem;
+    border-radius: 100%;
+    background-color: #151515;
+    margin-top: 5rem;
+}
+
+.description {
+    height: 100%;
+    width: 40rem;
+}
+
+.titleLine {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.titleAboutMe {
+    display: flex;
+    justify-content: center;
+    color: #151515;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.lineAboutMe {
+    margin-left: 9.5rem;
+    width: 11rem;
+    border: 0.3rem solid #713FFF;
+    border-radius: 1rem;
+}
+
+.textAboutMe {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}

@@ -1,4 +1,5 @@
 import './index.css'
+import { AboutMe } from '../AboutMe/index'
 
 export const Home = () => {
 
@@ -16,7 +17,7 @@ export const Home = () => {
             <nav>
               <ul>
                 <a href="#">Início</a>
-                <a href="#">Sobre</a>
+                <a href="#quemSou">Quem Sou</a>
                 <a href="#">Serviços</a>
                 <a href="#">Contato</a>
               </ul>
@@ -30,6 +31,7 @@ export const Home = () => {
           <div className='line2'></div>
         </div>
       </div>
+      <AboutMe/>
     </div>
   )
 }
