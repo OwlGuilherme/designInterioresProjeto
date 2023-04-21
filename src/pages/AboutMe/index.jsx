@@ -8,10 +8,12 @@ export const AboutMe = () => {
                 <div className='description'>
                     <div className='titleLine'>
                         <div className='titleAboutMe'>
-                            Quem sou eu
+                            Quem sou
                         </div>
                         <div className='lineAboutMe'></div>
-                        <div className='photoCel'></div>
+                        <div className='circle'>
+                            <div className='photoCel'></div>
+                        </div>
                     </div>
                     <div className='textAboutMe'>
                         <p>
@@ -21,6 +23,14 @@ export const AboutMe = () => {
                             cada cliente. Ao longo dos anos, tive a oportunidade de trabalhar com uma ampla variedade de projetos, incluindo novas construções, reformas e 
                             remodelações, e desenvolvi habilidades em gerenciamento de projetos, trabalhando dentro de prazos e orçamentos, além de ter excelentes habilidades 
                             de comunicação e negociação.
+                        </p>
+                    </div>
+                    <div className='textAboutMeCell'>
+                        <p>
+                        Com mais de 12 anos de experiência em design de interiores, transformo espaços em ambientes funcionais, confortáveis e esteticamente agradáveis. 
+                        Com habilidades em materiais, acabamentos, iluminação e mobiliário, crio projetos personalizados para cada cliente. Trabalhei em projetos variados, 
+                        incluindo construções, reformas e remodelações, gerenciando prazos e orçamentos. Minhas habilidades de comunicação e negociação garantem colaboração
+                        harmoniosa com os clientes.
                         </p>
                     </div>
                 </div>
