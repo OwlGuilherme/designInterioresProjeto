@@ -55,9 +55,6 @@
     text-align: center;
 }
 
-.textAboutMeCell {
-    display: none;
-}
 
 @media screen and (max-width: 1050px){
     .photo {
@@ -94,14 +91,6 @@
         display: none;
     }
 
-    .textAboutMeCell {
-        font-family: 'Rubik';
-        font-style: normal;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        text-align: center;
-    }
-
 }
 
 @media screen and (max-width: 700px){
@@ -129,7 +118,8 @@
     }
 
     .lineAboutMe {
-        margin-left: 3rem;
+        margin-left: 4.8rem;
+        width: 9rem;
     }
     
     .titleLine {
@@ -141,16 +131,9 @@
     }
 
     .textAboutMe {
-        margin-bottom: 3rem;
+        margin-bottom: 1.5rem;
     }
 
-    .textAboutMeCell {
-        font-family: 'Rubik';
-        font-style: normal;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        text-align: center;
-    }
 }
 
 @media screen and (max-width: 400px){
@@ -187,15 +170,8 @@
     }
 
     .lineAboutMe {
-        margin-left: 3rem;
-    }
-
-    .textAboutMeCell {
-        font-family: 'Rubik';
-        font-style: normal;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        text-align: center;
+        margin-left: 4.8rem;
+        width: 9rem;
     }
 
 }
