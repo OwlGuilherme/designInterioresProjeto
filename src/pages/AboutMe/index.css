@@ -126,7 +126,20 @@
     }
 
     .textAboutMe {
-        margin-bottom: 1.5rem;
+        display: none;
+    }
+
+    .textAboutMeCell {
+        display: flex;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 0.4rem;
+        background-color: #fff;
+        margin: 2rem 4% 0 4%;
     }
 
     .aboutMe {
@@ -206,6 +219,91 @@
         display: none;
     }
 
+}
+
+@media screen and (max-width: 600px){
+    .cantainerAboutMe {
+        height: 100vh;
+        background-color: #EEEEEE;
+        display: flex;
+        align-items: center;
+    }
+
+    .photo {
+        display: none;
+    }
+
+    .description {
+        height: 100%;
+        width: 100%;
+    }
+
+    .circle {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 15rem;
+    }
+
+    .photoCel {
+        border-radius: 100%;
+        background-color: #151515;
+        margin-top: 2rem;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .lineAboutMe {
+        margin-left: 24%;
+        width: 9rem;
+    }
+    
+    .titleLine {
+        margin-top: 0rem;
+    }
+
+    .titleAboutMe {
+        font-size: 50px;
+        margin-top: 1.5rem;
+    }
+
+    .textAboutMe {
+        display: none;
+    }
+
+    .textAboutMeCell {
+        display: flex;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 0.4rem;
+        background-color: #fff;
+        margin: 2rem 4% 0 4%;
+        }
+
+    svg {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .textAboutMeCell {
+        display: flex;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        text-align: center;
+        padding: 0.5rem;
+        border-radius: 0.4rem;
+        background-color: #fff;
+        margin: 1.2rem 2% 0 2%;
+    }
 }
 
 @media screen and (max-width: 400px){
