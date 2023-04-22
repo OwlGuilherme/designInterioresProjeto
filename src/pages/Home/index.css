@@ -134,4 +134,8 @@ a:hover {
     display: flex;
     align-items: center;
   }
+
+  .sectionCenter {
+    margin-bottom: 5rem;
+  }
 }
