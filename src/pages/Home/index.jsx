@@ -9,7 +9,7 @@ export const Home = () => {
         <header>
           <div className='sectionTop'>
             <div className='logoName'>
-              <img src='/images/logo2.png'/>
+              <img src='/images/logo5.png'/>
               <p className='title'>
                 Design de Interiores
               </p>
