@@ -2,7 +2,7 @@ import './index.css'
 
 export const Projects = () => {
     return(
-        <div className='containerProjects'>
+        <div id='projetos' className='containerProjects'>
             <div className='titleProject'>
                 <p>Eficiência, inovação e soluções de qualidade.</p>
                 <div className='linePage'>

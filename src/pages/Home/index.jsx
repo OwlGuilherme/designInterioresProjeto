@@ -19,7 +19,7 @@ export const Home = () => {
               <ul>
                 <a href="#">Início</a>
                 <a href="#quemSou">Quem Sou</a>
-                <a href="#">Serviços</a>
+                <a href="#projetos">Projetos</a>
                 <a href="#">Contato</a>
               </ul>
             </nav>
