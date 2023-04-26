@@ -144,6 +144,10 @@
 }
 
 @media screen and (max-width: 700px){
+    .containerProjects {
+        height: 280vh;
+    }
+
     .combo1 {
         height: 120vh;
         display: flex;
@@ -159,6 +163,31 @@
     
     .photo2 {
         margin-left: 0rem;
+    }
+
+    .combo2 {
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo3 {
+        margin-right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .photo4 {
+        margin-left: 0rem;
+    }
+
+    .photo3 img{
+        width: 340px;
+    }
+
+    .photo4 img{
+        width: 340px;
     }
 }
 
