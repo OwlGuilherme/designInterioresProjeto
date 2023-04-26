@@ -68,6 +68,7 @@
 
 .photo1 {
     margin-right: 3rem;
+    width: 260px;
 }
 
 .photo2 {
@@ -102,6 +103,25 @@
     
 }
 
+@media screen and (max-width: 700px){
+    .combo1 {
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .photo1 {
+        margin-right: 0rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .photo2 {
+        margin-left: 0rem;
+    }
+}
+
 @media screen and (max-width: 600px){
     .titleProject p{
         font-size: 20px;
@@ -125,6 +145,10 @@
 
     .lineTitle {
         width: 13rem;
+    }
+
+    .photo1 {
+        width: 340px;
     }
     
 }
