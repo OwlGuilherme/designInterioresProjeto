@@ -50,3 +50,41 @@
     flex-direction: row;
     justify-content: center;
 }
+
+@media screen and (max-width: 800px){
+    .titleProject p{
+        font-size: 30px;
+    }
+
+    .lineTitle {
+        width: 25rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .titleProject p{
+        font-size: 20px;
+    }
+
+    .lineTitle {
+        width: 15rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+
+    .titleProject {
+        height: 18vh;
+    }
+
+    .titleProject p{
+        font-size: 18px;
+    }
+
+    .lineTitle {
+        width: 13rem;
+    }
+    
+}
