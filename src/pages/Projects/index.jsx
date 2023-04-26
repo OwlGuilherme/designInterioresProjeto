@@ -12,18 +12,20 @@ export const Projects = () => {
             <div className='projects'>
                 <div className='combo1'>
                     <div className='photo1'>
-                        Foto1
+                        <p>Casas</p>
+                        <img src='/images/casa1.webp'/>
                     </div>
                     <div className='photo2'>
-                        Foto2
+                        <p>Escritórios</p>
+                        <img src='/images/escritorio.webp'/>
                     </div>
                 </div>
                 <div className='combo2'>
                     <div className='photo3'>
-                        Foto3
+                        {/* Foto3 */}
                     </div>
                     <div className='photo4'>
-                        Foto4
+                        {/* Foto4 */}
                     </div>
                 </div>
             </div>
