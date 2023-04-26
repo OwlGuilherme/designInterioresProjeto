@@ -13,7 +13,7 @@ export const Projects = () => {
                 <div className='combo1'>
                     <div className='photo1'>
                         <p>Casas</p>
-                        <img src='/images/casa1.webp'/>
+                        <img src='/images/casa.webp'/>
                     </div>
                     <div className='photo2'>
                         <p>Escritórios</p>
@@ -22,10 +22,12 @@ export const Projects = () => {
                 </div>
                 <div className='combo2'>
                     <div className='photo3'>
-                        {/* Foto3 */}
+                        <p>Cozinhas</p>
+                        <img src='/images/cozinhas.png'/>
                     </div>
                     <div className='photo4'>
-                        {/* Foto4 */}
+                        <p>Banheiros</p>
+                        <img src='/images/banheiros.avif'/>
                     </div>
                 </div>
             </div>
