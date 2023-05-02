@@ -42,12 +42,12 @@
 
 @media screen and (max-width: 600px){
     .aboutProjectContainer {
-        height: 83vh;
+        height: 86vh;
     }
 
     .textAboutProject {
         margin: 2rem 3rem;
-        height: calc(83vh - 4rem);
+        height: calc(86vh - 4rem);
     }
 }
 
