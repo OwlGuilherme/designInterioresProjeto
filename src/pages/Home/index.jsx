@@ -1,6 +1,7 @@
 import './index.css'
 import { AboutMe } from '../AboutMe/index'
 import { Projects } from '../Projects'
+import { AboutProjects } from '../AboutProject'
 
 export const Home = () => {
 
@@ -34,6 +35,7 @@ export const Home = () => {
       </div>
       <AboutMe/>
       <Projects/>
+      <AboutProjects/>
     </div>
   )
 }

@@ -1,0 +1,86 @@
+.aboutProjectContainer {
+    height: 60vh;
+    background-color: #EEEEEE;
+}
+
+.textAboutProject {
+    margin: 4rem 15%;
+    background-color: #006400;
+    height: calc(60vh - 8rem);
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.descriptionDesign {
+    color: #EEEEEE;
+    line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1050px){
+    .textAboutProject {
+        margin: 4rem 3rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .textAboutProject {
+        margin: 2rem 3rem;
+        height: calc(60vh - 4rem);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .aboutProjectContainer {
+        height: 70vh;
+    }
+
+    .textAboutProject {
+        margin: 2rem 3rem;
+        height: calc(70vh - 4rem);
+    }
+}
+
+@media screen and (max-width: 600px){
+    .aboutProjectContainer {
+        height: 83vh;
+    }
+
+    .textAboutProject {
+        margin: 2rem 3rem;
+        height: calc(83vh - 4rem);
+    }
+}
+
+/* @media screen and (max-width: 550px){
+    .aboutProjectContainer {
+        height: 90vh;
+    }
+
+    .textAboutProject {
+        margin: 2rem 3rem;
+        height: calc(90vh - 4rem);
+    }
+} */
+/* 
+@media screen and (max-width: 490px){
+    .aboutProjectContainer {
+        height: 100vh;
+    }
+
+    .textAboutProject {
+        margin: 2rem 3rem;
+        height: calc(100vh - 4rem);
+    }
+} */
+
+/* @media screen and (max-width: 450px){
+    .aboutProjectContainer {
+        height: 115vh;
+    }
+
+    .textAboutProject {
+        margin: 2rem 3rem;
+        height: calc(115vh - 4rem);
+    }
+} */
+
