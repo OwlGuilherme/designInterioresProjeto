@@ -71,8 +71,16 @@
     width: 260px;
 }
 
+.photo1 img{
+    border-radius: 1rem;
+}
+
 .photo2 {
     margin-left: 3rem;
+}
+
+.photo2 img{
+    border-radius: 1rem;
 }
 
 .photo1 img{
@@ -101,8 +109,16 @@
     margin-right: 3rem;
 }
 
+.photo3 img{
+    border-radius: 1rem;
+}
+
 .photo4 {
     margin-left: 3rem;
+}
+
+.photo4 img{
+    border-radius: 1rem;
 }
 
 .photo3 p{
