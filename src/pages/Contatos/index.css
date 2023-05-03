@@ -1,0 +1,29 @@
+.containerContatos {
+    height: 30vh;
+}
+
+.pageContatos {
+    background-size: 100%;
+    background: 
+      linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+      url('/images/imgHouseContatos.jpg'),
+      no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    height: 30vh;
+}
+
+.contatos {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    line-height: 1.8rem;
+}
+
+.contatosName {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}

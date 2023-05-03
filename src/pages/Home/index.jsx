@@ -2,6 +2,7 @@ import './index.css'
 import { AboutMe } from '../AboutMe/index'
 import { Projects } from '../Projects'
 import { AboutProjects } from '../AboutProject'
+import { Contatos } from '../Contatos'
 
 export const Home = () => {
 
@@ -18,10 +19,9 @@ export const Home = () => {
             </div>
             <nav>
               <ul>
-                <a href="#">Início</a>
                 <a href="#quemSou">Quem Sou</a>
                 <a href="#projetos">Projetos</a>
-                <a href="#">Contato</a>
+                <a href="#contatos">Contatos</a>
               </ul>
             </nav>
           </div>
@@ -36,6 +36,7 @@ export const Home = () => {
       <AboutMe/>
       <Projects/>
       <AboutProjects/>
+      <Contatos/>
     </div>
   )
 }
