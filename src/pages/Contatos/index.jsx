@@ -8,6 +8,7 @@ export const Contatos = () => {
                     <p className='contatosName'>Contatos</p>
                     <p>Telefone: (61) 98516-8437</p>
                     <p>Email: </p>
+                    <div className='lineContatos'></div>
                 </div>
             </div>
         </div>
