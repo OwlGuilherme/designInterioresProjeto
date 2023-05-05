@@ -197,14 +197,6 @@
     .photo4 {
         margin-left: 0rem;
     }
-
-    .photo3 img{
-        width: 340px;
-    }
-
-    .photo4 img{
-        width: 340px;
-    }
 }
 
 @media screen and (max-width: 600px){
@@ -230,10 +222,6 @@
 
     .lineTitle {
         width: 13rem;
-    }
-
-    .photo1 {
-        width: 340px;
     }
     
 }
