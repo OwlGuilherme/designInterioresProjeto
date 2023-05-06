@@ -147,7 +147,7 @@
 .photo4 img{
     height: 55vh;
 }
-
+/* 
 @media screen and (max-width: 800px){
     .titleProject p{
         font-size: 30px;
@@ -157,9 +157,9 @@
         width: 25rem;
     }
     
-}
+} */
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 900px){
     .containerProjects {
         height: 280vh;
     }
