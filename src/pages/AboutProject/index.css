@@ -17,6 +17,22 @@
     text-align: justify;
 }
 
+@media screen and (min-width: 1650px){
+    .descriptionDesign {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    
+}
+
+@media screen and (max-width: 1649px) and (min-width: 1400px){
+    .descriptionDesign {
+        font-size: 1.3rem;
+        line-height: 3rem;
+    }
+    
+}
+
 @media screen and (max-width: 1050px){
     .textAboutProject {
         margin: 4rem 3rem;
