@@ -424,25 +424,25 @@
 
 @media screen and (max-width: 500px){
     .cantainerAboutMe {
-        height: 120vh;
+        height: 95vh;
         background-color: #EEEEEE;
     }
 
     .photoCel {
-        margin-top: 2.5rem;
+        margin-top: 6%;
     }
 
     .textAboutMeCell {
         display: flex;
         font-family: 'Rubik';
         font-style: normal;
-        font-size: 1.1rem;
-        line-height: 1.5rem;
+        font-size: 110%;
+        line-height: 130%;
         text-align: center;
-        padding: 1rem;
+        padding: 4%;
         border-radius: 0.4rem;
         background-color: #fff;
-        margin: 3rem 7% 0 7%;
+        margin: 8% 7% 0 7%;
         height: calc(100% - 22rem);
     }
 
