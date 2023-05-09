@@ -125,6 +125,11 @@
         display: none;
     }
 
+    .photoCel img{
+        height: 290px;
+        margin-left: 1.3rem;
+    }
+
     .description {
         height: 100vh;
         width: 100%;
@@ -201,6 +206,11 @@
 
     .photo {
         display: none;
+    }
+
+    .photoCel img{
+        height: 260px;
+        margin-left: 1.3rem;
     }
 
     .description {
@@ -282,6 +292,11 @@
 
     .photo {
         display: none;
+    }
+
+    .photoCel img{
+        height: 239px;
+        margin-left: 1.1rem;
     }
 
     .description {
