@@ -25,6 +25,10 @@
     margin-left: 1.5rem;
 }
 
+.photoCel {
+    display: none;
+}
+
 .description {
     height: 100%;
     width: 40rem;
@@ -77,6 +81,10 @@
         font-size: 140%;
         line-height: 1.5rem;
     }  
+
+    .photoCel {
+        display: none;
+    }
 
     .photo {
         height: 30rem;

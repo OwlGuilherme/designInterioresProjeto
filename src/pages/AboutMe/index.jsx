@@ -5,9 +5,7 @@ export const AboutMe = () => {
         <div className='cantainerAboutMe'>
             <div id='quemSou' className='aboutMe'>
                 <div className='photo'>
-                    {/* <div> */}
-                        <img src='/images/FotoPessoa.png'/>
-                    {/* </div> */}
+                    <img src='/images/FotoPessoa.png'/>
                 </div>
                 <div className='description'>
                     <div className='titleLine'>
