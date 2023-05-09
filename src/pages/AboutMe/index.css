@@ -147,9 +147,9 @@
     .photoCel {
         border-radius: 100%;
         background-color: #151515;
-        margin-top: 2rem;
-        height: 20rem;
-        width: 20rem;
+        margin-top: 1.8rem;
+        height: 18rem;
+        width: 18rem;
     }
 
     .lineAboutMe {
@@ -176,13 +176,13 @@
         display: flex;
         font-family: 'Rubik';
         font-style: normal;
-        font-size: 1.8rem;
-        line-height: 2rem;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
         text-align: center;
-        padding: 1rem;
+        padding: 0.9rem;
         border-radius: 0.4rem;
         background-color: #fff;
-        margin: 2rem 4% 0 4%;
+        margin: 0.5rem 4% 0 4%;
     }
 
     .aboutMe {
