@@ -59,11 +59,11 @@
 
 @media screen and (max-width: 600px){
     .aboutProjectContainer {
-        height: 86vh;
+        height: 95vh;
     }
 
     .textAboutProject {
-        margin: 2rem 3rem;
+        margin: 4rem 3rem;
         height: calc(86vh - 4rem);
     }
 }

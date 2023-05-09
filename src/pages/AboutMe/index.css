@@ -378,6 +378,11 @@
 }
 
 @media screen and (max-width: 500px){
+    .cantainerAboutMe {
+        height: 110vh;
+        background-color: #EEEEEE;
+    }
+
     .photoCel {
         margin-top: 2.5rem;
     }
