@@ -147,19 +147,9 @@
 .photo4 img{
     height: 55vh;
 }
-/* 
-@media screen and (max-width: 800px){
-    .titleProject p{
-        font-size: 30px;
-    }
-
-    .lineTitle {
-        width: 25rem;
-    }
-    
-} */
 
 @media screen and (min-width: 1400px){
+
     .photo1 {
         width: 375px;
     }
@@ -167,7 +157,17 @@
         width: 375px;
     }
     .photo3 img{
-        width: 375px;
+        width: 380px;
+    }
+    .photo4 img{
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 1399px){
+
+    .photo4 img{
+        width: 270px;
     }
 }
 
@@ -223,7 +223,7 @@
     }
 
     .photo4 img{
-        width: 340px;
+        width: 345px;
     }
 }
 
