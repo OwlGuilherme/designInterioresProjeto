@@ -159,6 +159,18 @@
     
 } */
 
+@media screen and (min-width: 1400px){
+    .photo1 {
+        width: 360px;
+    }
+    .photo3 {
+        width: 360px;
+    }
+    .photo3 img{
+        width: 360px;
+    }
+}
+
 @media screen and (max-width: 900px){
     .containerProjects {
         height: 280vh;
