@@ -82,10 +82,6 @@
         line-height: 1.5rem;
     }  
 
-    .photoCel {
-        display: none;
-    }
-
     .photo {
         height: 30rem;
         width: 30rem;
@@ -158,6 +154,7 @@
     }
 
     .photoCel {
+        display: flex;
         border-radius: 100%;
         background-color: #151515;
         margin-top: 1.8rem;
