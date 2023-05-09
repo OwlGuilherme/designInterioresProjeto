@@ -75,36 +75,39 @@
     }
 }
 
-/* @media screen and (max-width: 550px){
+@media screen and (max-width: 500px){
     .aboutProjectContainer {
-        height: 90vh;
+        height: 85vh;
     }
 
     .textAboutProject {
         margin: 2rem 3rem;
-        height: calc(90vh - 4rem);
+        height: calc(85vh - 4rem);
     }
-} */
-/* 
-@media screen and (max-width: 490px){
+
+    .descriptionDesign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
     .aboutProjectContainer {
-        height: 100vh;
+        height: 120vh;
     }
 
     .textAboutProject {
-        margin: 2rem 3rem;
-        height: calc(100vh - 4rem);
-    }
-} */
-
-/* @media screen and (max-width: 450px){
-    .aboutProjectContainer {
-        height: 115vh;
+        margin: 2rem 2rem;
+        height: calc(120vh - 4rem);
     }
 
-    .textAboutProject {
-        margin: 2rem 3rem;
-        height: calc(115vh - 4rem);
+    .descriptionDesign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
-} */
-
+}
