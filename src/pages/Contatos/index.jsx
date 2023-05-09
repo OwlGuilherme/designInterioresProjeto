@@ -7,7 +7,7 @@ export const Contatos = () => {
                 <div className='contatos'>
                     <p className='contatosName'>Contatos</p>
                     <p>Telefone: (61) 98516-8437</p>
-                    <p>Email: </p>
+                    <p>Email: soraiaduartte@gmail.com</p>
                     <div className='lineContatos'></div>
                 </div>
             </div>

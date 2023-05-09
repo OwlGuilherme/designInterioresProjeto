@@ -252,3 +252,15 @@
         width: 13rem;
     }
 }
+
+@media screen and (max-width: 400px){
+
+    .titleProject {
+        height: 19vh;
+    }
+
+    .titleProject p{
+        font-size: 18px;
+        text-align: center;
+    }
+}
