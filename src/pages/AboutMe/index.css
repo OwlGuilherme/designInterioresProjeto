@@ -61,12 +61,25 @@
 }
 
 @media screen and (min-width: 1650px){
+      
+}
+
+@media screen  and (min-width: 1400px){
+    .description {
+        margin-top: 10rem;
+    }
+
     .textAboutMe {
         font-family: 'Rubik';
         font-style: normal;
         font-size: 140%;
         line-height: 1.5rem;
-    }    
+    }  
+
+    .photo {
+        height: 30rem;
+        width: 30rem;
+    }
 }
 
 @media screen and (max-width: 1050px){
