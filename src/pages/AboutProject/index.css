@@ -59,12 +59,19 @@
 
 @media screen and (max-width: 600px){
     .aboutProjectContainer {
-        height: 95vh;
+        height: 93vh;
     }
 
     .textAboutProject {
-        margin: 4rem 3rem;
-        height: calc(86vh - 4rem);
+        margin: 2rem 3rem;
+        height: calc(93vh - 4rem);
+    }
+
+    .descriptionDesign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
 }
 

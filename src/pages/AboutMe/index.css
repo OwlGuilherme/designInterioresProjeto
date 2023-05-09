@@ -379,7 +379,7 @@
 
 @media screen and (max-width: 500px){
     .cantainerAboutMe {
-        height: 110vh;
+        height: 120vh;
         background-color: #EEEEEE;
     }
 
@@ -398,12 +398,18 @@
         border-radius: 0.4rem;
         background-color: #fff;
         margin: 3rem 7% 0 7%;
+        height: calc(100% - 22rem);
+    }
+
+    .textAboutMeCell p{
+        display: flex;
+        align-items: center;
     }
 }
 
 @media screen and (max-width: 400px){
     .cantainerAboutMe {
-        height: 100vh;
+        height: 120vh;
         background-color: #EEEEEE;
     }
 
