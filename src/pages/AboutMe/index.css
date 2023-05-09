@@ -428,6 +428,10 @@
         background-color: #EEEEEE;
     }
 
+    .titleAboutMe {
+        margin-top: 2%
+    }
+
     .photoCel {
         margin-top: 6%;
     }
@@ -439,7 +443,7 @@
         font-size: 110%;
         line-height: 130%;
         text-align: center;
-        padding: 4%;
+        padding: 3% 4%;
         border-radius: 0.4rem;
         background-color: #fff;
         margin: 8% 7% 0 7%;
