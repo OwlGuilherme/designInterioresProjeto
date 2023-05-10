@@ -27,7 +27,7 @@ export const Projects = () => {
                     </div>
                     <div className='photo4'>
                         <p>Banheiros</p>
-                        <img src='/images/banheiro1.jpg'/>
+                        <img src='/images/banheiro.jpg'/>
                     </div>
                 </div>
             </div>
