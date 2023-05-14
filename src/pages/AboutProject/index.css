@@ -21,16 +21,24 @@
 
 @media screen and (min-width: 1650px){
     .descriptionDesign {
-        font-size: 1.5rem;
-        line-height: 3rem;
+        font-size: 140%;
+        line-height: 200%;
     }
     
 }
 
-@media screen and (max-width: 1649px) and (min-width: 1400px){
+@media screen and (max-width: 1649px){
     .descriptionDesign {
-        font-size: 1.3rem;
-        line-height: 3rem;
+        font-size: 130%;
+        line-height: 230%;
+    }
+    
+}
+
+@media screen  and (min-width: 1051px) and (max-width: 1400px){
+    .descriptionDesign {
+        font-size: 120%;
+        line-height: 190%;
     }
     
 }
@@ -38,6 +46,10 @@
 @media screen and (max-width: 1050px){
     .textAboutProject {
         margin: 4rem 3rem;
+    }
+    .descriptionDesign {
+        font-size: 120%;
+        line-height: 185%;
     }
 }
 
