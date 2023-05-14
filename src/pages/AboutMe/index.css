@@ -491,9 +491,12 @@
         display: flex;
         font-family: 'Rubik';
         font-style: normal;
-        font-size: 1.1rem;
-        line-height: 1.4rem;
+        font-style: normal;
+        font-size: 110%;
+        line-height: 120%;
         text-align: center;
+        padding: 3% 3%;
+        margin: 10% 5% 0 5%;
     }
 
     svg {
