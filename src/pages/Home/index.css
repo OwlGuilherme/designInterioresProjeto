@@ -143,3 +143,9 @@ a:hover {
     margin-bottom: 5rem;
   }
 }
+
+@media screen and (max-width: 400px){
+  .design {
+    font-size: 1.8rem;
+  }
+}
