@@ -483,6 +483,16 @@
         background-color: #EEEEEE;
     }
 
+    .titleAboutMe {
+        font-size: 300%;
+        margin-top: 2%
+    }
+
+    .lineAboutMe {
+        margin-left: 5%;
+        width: 8rem;
+    }
+
     .photo {
         display: none;
     }
@@ -497,15 +507,10 @@
     .photoCel {
         border-radius: 100%;
         background-color: #151515;
-        margin-top: 2rem;
+        margin-top: 5%;
         margin-left: 0;
         height: 14rem;
         width: 14rem;
-    }
-
-    .titleAboutMe {
-        font-size: 50px;
-        margin-top: 2%
     }
 
     .textAboutMeCell {
