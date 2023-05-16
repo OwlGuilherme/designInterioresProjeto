@@ -15,7 +15,7 @@ export const AboutMe = () => {
                         <div className='lineAboutMe'></div>
                         <div className='circle'>
                             <div className='photoCel'>
-                                <img src='/images/FotoPessoa.png'/>
+                                <img src='/images/FotoOficial.png'/>
                             </div>
                         </div>
                     </div>
