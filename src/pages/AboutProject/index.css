@@ -35,10 +35,10 @@
     
 }
 
-@media screen  and (min-width: 1051px) and (max-width: 1400px){
+@media screen  and (max-width: 1400px){
     .descriptionDesign {
-        font-size: 120%;
-        line-height: 190%;
+        font-size: 100%;
+        line-height: 165%;
     }
     
 }
@@ -48,8 +48,8 @@
         margin: 4rem 3rem;
     }
     .descriptionDesign {
-        font-size: 120%;
-        line-height: 185%;
+        font-size: 90%;
+        line-height: 165%;
     }
 }
 
