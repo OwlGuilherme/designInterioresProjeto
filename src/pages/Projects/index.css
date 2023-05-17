@@ -256,11 +256,12 @@
 @media screen and (max-width: 400px){
 
     .titleProject {
-        height: 19vh;
+        height: 17vh;
     }
 
     .titleProject p{
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
+
 }
