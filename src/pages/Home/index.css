@@ -85,12 +85,13 @@ a:hover {
 }
 
 .name {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   color: #fff;
-  padding-bottom: 0.7rem;
+  /* padding-bottom: 0.7rem; */
   display: flex;
   align-items: center;
-  font-family: 'Dancing Script', cursive;
+  /* font-family: 'Dancing Script', cursive; */
+  font-family: 'Brittany Signature', sans-serif, 'Dancing Script', cursive;;
 }
 
 .design {
@@ -120,7 +121,7 @@ a:hover {
   }
 
   .name {
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 
   .design {
@@ -154,11 +155,12 @@ a:hover {
   }
 
   .name {
-    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.6rem;
   }
 
   .design {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .line2 {
@@ -173,11 +175,11 @@ a:hover {
   }
 
   .name {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
 
   .design {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
 }
@@ -195,7 +197,7 @@ a:hover {
   }
 
   .name {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .design {
