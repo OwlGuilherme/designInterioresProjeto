@@ -1,4 +1,40 @@
-.containerContatos {
+.pageContatos {
+    background-size: 100%;
+    background: 
+      linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+      url('/images/imgHouseContatos.jpg'),
+      no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.contatos {
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.contatosTelEmail {
+    line-height: 1.8rem;
+}
+
+.contatosName {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+}
+
+.lineContatos {
+    background-color: #9D9D9D;
+    width: 8rem;
+    height: 0.31rem;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+  }
+
+/* .containerContatos {
     height: 30vh;
 }
 
@@ -34,4 +70,4 @@
     height: 0.31rem;
     border-radius: 0.2rem;
     margin-top: 0.3rem;
-  }
+  } */
