@@ -1,4 +1,192 @@
-.cantainerAboutMe {
+.containerAboutMe {
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5rem 4rem 0 4rem;
+}
+
+.photo {
+    height: 23rem;
+    width: 23rem;
+    border-radius: 100%;
+    background-color: #151515;
+}
+
+.photo img {
+    height: 370px;
+    margin-left: -2rem;
+}
+
+.titleLine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.description {
+    margin-left: 6rem;
+}
+
+.titleAboutMe {
+    color: #151515;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+}
+
+.lineAboutMe {
+    margin-left: 0.6rem;
+    width: 10rem;
+    border: 0.3rem solid #006400;
+    border-radius: 1rem;
+}
+
+.textAboutMe {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
+    text-align: center;
+}
+
+.circle {
+    display: none;
+}
+
+@media screen and (min-width: 1450px){
+    .aboutMe {
+        margin: 6rem;
+    }
+
+    .photo {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .photo img {
+        height: 25rem;
+        width: 29rem;
+    }
+
+    .titleAboutMe {
+        font-size: 90px;
+    }
+
+    .lineAboutMe {
+        width: 15rem;
+    }
+
+    .textAboutMe {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    .aboutMe {
+        margin: 4rem;
+    }
+
+    .description {
+        margin-left: 0;
+    }
+
+    .photo{
+        display: none;
+    }
+
+    .circle {
+        display: flex;
+    }
+
+    .photoCel {
+        border-radius: 100%;
+        background-color: #151515;
+        margin-top: 1.8rem;
+        height: 16rem;
+        width: 16rem;
+    }
+
+    .photoCel img {
+        height: 16rem;
+        width: 18rem;
+        margin-left: -1rem;
+    }
+
+    .textAboutMe {
+        background-color: #fff;
+        padding: 1.3rem;
+        text-align: justify;
+        font-family: 'Rubik';
+        font-style: normal;
+        border-radius: 0.4rem;
+        line-height: 1.9rem;
+    }
+
+    svg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .aboutMe {
+        margin: 2rem ;
+    }
+
+    .titleAboutMe {
+        font-size: 50px;
+    }
+
+    .textAboutMe {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .aboutMe {
+        margin: 1.3rem ;
+    }
+
+    .textAboutMe {
+        font-size:  1.1rem;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+
+    .aboutMe {
+        margin: 1rem ;
+    }
+
+    .titleAboutMe {
+        font-size: 40px;
+    }
+
+    .photoCel {
+        height: 12rem;
+        width: 12rem
+    }
+
+    .photoCel img{
+        height: 12rem;
+        width: 14rem;
+    }
+}
+
+/* .cantainerAboutMe {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -542,4 +730,4 @@
         display: none;
     }
 
-}
+} */

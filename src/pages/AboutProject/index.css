@@ -1,4 +1,39 @@
 .aboutProjectContainer {
+    background-color: #EEEEEE;
+}
+
+.textAboutProject {
+    margin: 3rem;
+    background-color: #006400;
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.descriptionDesign {
+    color: #EEEEEE;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1400px){
+    .descriptionDesign {
+        line-height: 1.8rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1401px){
+    .descriptionDesign {
+        line-height: 2.4rem;
+        font-size: 1.6rem;
+    }
+    .textAboutProject {
+        margin: 4rem;
+    }
+
+}
+
+/* .aboutProjectContainer {
     height: 60vh;
     background-color: #EEEEEE;
 }
@@ -124,4 +159,4 @@
         align-items: center;
         height: 100%;
     }
-}
+} */
