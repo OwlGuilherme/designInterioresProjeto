@@ -15,6 +15,205 @@ html {
     no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionTop {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoName {
+  display: flex;
+  flex-direction: row;
+}
+
+.logoName img {
+  height: 1.8rem;
+  width: 1.8rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.title{
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+a {
+  padding-right: 1.3rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C8C8C8;
+}
+
+.sectionCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 10rem 5rem 20rem 5rem;
+}
+
+.line1 {
+  background-color: #9D9D9D;
+  width: 6rem;
+  height: 0.31rem;
+  margin-bottom: 1.8rem;
+  border-radius: 0.2rem;
+}
+
+.name {
+  font-size: 2.3rem;
+  color: #fff;
+  padding-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.design {
+  font-size: 3.5rem;
+  color: #fff;
+  padding-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+}
+
+.line2 {
+  background-color: #9D9D9D;
+  width: 12rem;
+  height: 0.35rem;
+  margin-Top: 1rem;
+  border-radius: 0.2rem;
+}
+
+@media screen and (min-width: 1450px){
+
+  .sectionCenter {
+    padding: 18rem 5rem 24rem 5rem;
+  }
+
+  .line1 {
+    width: 8rem;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .design {
+    font-size: 5rem;
+  }
+
+  .line2 {
+    width: 22rem;
+  }
+}
+
+@media screen and (max-width: 700px){
+
+  .design {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 601px){
+
+  nav {
+    display: none;
+  }
+
+  .sectionCenter {
+    padding: 14rem 0 22rem 0;
+  }
+
+  .line1 {
+    width: 5rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .design {
+    font-size: 2rem;
+  }
+
+  .line2 {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  .sectionCenter {
+    padding: 11rem 0 16rem 0;
+  }
+
+  .name {
+    font-size: 1.7rem;
+  }
+
+  .design {
+    font-size: 1.9rem;
+  }
+
+}
+
+@media screen and (max-width: 300px){
+
+  
+  .title{
+    margin-top: 0.2rem;
+    font-size: 1.1rem;
+  }
+
+  .sectionCenter {
+    padding: 10rem 0 18rem 0;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .design {
+    font-size: 1.6rem;
+  }
+
+}
+
+
+
+/* .pageHome {
+  background-size: 100%;
+  background: 
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
+    url('/images/imgHouse.jpg'),
+    no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -148,4 +347,4 @@ a:hover {
   .design {
     font-size: 1.8rem;
   }
-}
+} */
