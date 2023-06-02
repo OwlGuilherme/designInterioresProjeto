@@ -31,9 +31,15 @@
     width: 8rem;
     height: 0.31rem;
     border-radius: 0.2rem;
-    margin-top: 0.3rem;
+    margin-top: 0.6rem;
   }
 
+  @media screen and (max-width: 600px){
+
+    .contatos {
+        padding: 4rem 1rem;
+    }
+  }
 /* .containerContatos {
     height: 30vh;
 }
